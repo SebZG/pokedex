@@ -1,12 +1,20 @@
 # pokedex
 
-A JPG to PNG converter.
+A JPG to PNG converter that batch converts images from one directory to another.
 
-After downloading, in the terminal navigate to the project folder and run:
+## Setup
+
+After downloading, install dependencies:
 
 ```bash
-pip3 install
+pip3 install Pillow
+
 ```
+
+## Usage
+
 ```bash
 python3 JPGtoPNGconverter.py POKEDEX/ NEW/
 ```
+- `POKEDEX/`: Source directory containing JPG images
+- `NEW/`: Destination directory (created if it doesn't exist)
